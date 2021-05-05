@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.dado {
+  width: 120px;
+  height: 120px;
+  padding: 15px;
+  background-color: ghostwhite;
+  border-radius: 5px;
+}
+.circulo {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+}
+.uno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.centro {
+  align-self: center;
+}
+.derecha {
+  align-self: flex-end;
+}
